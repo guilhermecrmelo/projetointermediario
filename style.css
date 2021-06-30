@@ -1,0 +1,289 @@
+
+	/*		INDEX		*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+*{
+	margin: 0;
+	padding: 0;
+}
+.body-1{
+	background-color: #000;
+}
+.header-1{
+	background: url("assets/ft-header.jpg") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 60vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.header-logo{
+	width: 15%;
+	/*height: 28vh;*/
+	margin: 5% 0 0 8%;
+}
+@media(max-width: 640px){
+	.header-logo{
+		width: 25%
+	}
+	.menu{
+		flex-direction: column;
+		font-size: 20px;
+	}
+	
+}
+.menu{
+	font-size: 30px;
+	font-style: #000;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin: 70px 50px 0 0;
+}
+.menu-item{
+	background-color: rgba(255, 255, 255, 0.70);
+	padding: 4px 20px 10px 20px	;
+	border-radius: 25px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #000;
+	height: 10%;
+	margin: 5px;
+}
+.centro{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	position: relative;
+}
+.quadrado{
+	border: solid 3px #fff;
+	height: 90vh;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: absolute;
+	top: 60px;
+}
+.mais-fotos{
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 15px 10px 0;
+}
+@media(max-width: 640px){
+	.centro{
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.quadrado{
+		display: none;
+	}
+	
+}
+.span-reticencias{
+	font-size: 16px;
+}
+.titulo-fotografias{
+	color: #fff;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	width: 70%;
+	text-align: center;
+	margin: 80px 0 10px 0;
+}
+.imagem-maior{
+	width: 48%;
+	/*height: 820px;*/
+	margin: 0px 20px 0 0px;
+}
+.imagens-juntas{
+	width: 48%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+}
+@media(max-width: 640px){
+	.centro{
+		justify-content: center;
+		align-items: center;
+	}
+	.imagem-maior{
+		width: 90%;
+		margin: 0;
+	}
+	.imagens-juntas{
+		width: 90%;
+	}
+}
+.imagens-item1{
+	width: 100%;
+	margin: 0 0px 0px 0px;
+}
+.imagens-item2{
+	width:100%;
+	margin-top:7.8%;
+}
+@media(max-width: 640px){
+	.imagens-item1{
+		margin-top: 3%;
+	}
+	.imagens-item2{
+		margin: 0;
+		margin-top: 3%;
+	}
+}
+.mais-fotos2{
+	display: none;
+	align-self: flex-end;
+	margin-right: 6%;
+	margin-top: 1.3%;
+}
+@media(max-width: 640px){
+	.mais-fotos2{
+		display: block;
+		text-decoration: none;
+		font-size: 18px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		color: #fff;
+	}
+}
+.rodape{
+	background: url("fotos/foto02.jpg") no-repeat center -270px;
+	background-size: cover;
+	width: 100%;
+	height: 35vh;
+	margin: 40px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.redes-sociais{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 340px;
+	height: 50%;
+	margin-top: 15px;
+}
+.redes-icon{
+
+}
+.redes-img{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+}
+.titulo-1{
+	color: #fff;
+	width: 45%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin: 20px 0 0 30px;
+}
+.container-final{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-end;
+	width: 100%;
+	height: 8vh;
+	background-color: rgba(255, 255, 255, 0.70);
+}
+.powered-1{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	align-self: center;
+	color: #000;
+
+}
+.span-2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+@media(max-width: 640px){
+	.rodape{
+		background: none;
+		justify-content: center;
+	}
+	.titulo-1{
+		width: 90%;
+		margin-bottom: 10%;
+	}
+	.container-final{
+		background: none;
+	}
+	.powered-1{
+		color: #fff;
+	}
+}
+
+
+
+
+
+	/*		Contato		*/	
+
+
+
+
+.header-2{
+	background: rgb(92, 12, 28);
+
+}
+.containerContato{
+	display: flex;
+	background-color: rgb(92, 12, 28);
+	min-height: 35vh;
+}
+.mainContato-item{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	}
+.form-titulo1{
+	margin-left: 110px;
+
+}.form-titulo2{
+
+}
+.form-input{
+	width: 90%;
+	height: 5vh;
+}
+.form-text{
+	height: 200px;
+}
+
+.rodape-1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgb(92, 12, 28);
+}
+.powered-2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+.span-3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
